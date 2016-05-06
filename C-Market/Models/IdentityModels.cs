@@ -13,5 +13,7 @@ namespace C_Market.Models
             : base("DefaultConnection")
         {
         }
+
+        public System.Data.Entity.DbSet<C_Market.Models.Product> Products { get; set; }
     }
 }
